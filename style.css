@@ -8,12 +8,10 @@ body{
     width: 100px;
     height: 100%;
 }
-.nav li a{
+#navbarCollapse a{
     color: white;
 }
-.nav li a:hover{
-    color: thistle;
-}
+
 .slider-item{
     padding: 10px 40px;
 }
