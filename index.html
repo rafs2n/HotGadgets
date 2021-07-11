@@ -40,7 +40,7 @@
     </div>
     <!-- --------Nav Items-------- -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row bg-dark">
             <div class="col-lg-12">
                 <nav id="navbar_top" class="navbar navbar-expand-md bg-dark navbar-dark">
                     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -51,7 +51,7 @@
                     <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Product</a>
@@ -147,7 +147,7 @@
 
         <!-- ----------Product Card----------- -->
 
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-lg-12 d-flex justify-content-between">
                 <div class="card-head mb-2">
                     <h4>Smartphones</h4>
@@ -332,9 +332,9 @@
         </div>
     </div>
     <!-- -----------Footer----------- -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
         <div class="row footer">
-            <div class="col-lg-12 d-flex flex-lg-row justify-content-md-between flex-sm-column">
+            <div class="footer-box no-gutters col-lg-12 d-flex flex-lg-row justify-content-md-between flex-sm-column">
                 <div class="contact">
                     <h6>Buy & Sell online with Hot Gadgets. <br> Trust quality & best customer expperience at one place!
                     </h6>
@@ -386,11 +386,11 @@
             </div>
         </div>
     </div>
-
+    <!-- -------------Fixed Navbar----------- -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             window.addEventListener('scroll', function () {
-                if (window.scrollY > 100) {
+                if (window.scrollY > 130) {
                     document.getElementById('navbar_top').classList.add('fixed-top');
                     // add padding top to show content behind navbar
                     navbar_height = document.querySelector('.navbar').offsetHeight;

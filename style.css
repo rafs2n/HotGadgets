@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
+
+
 body{
     margin: 0px;
     padding: 0px;
@@ -148,9 +151,7 @@ form.example::after {
     margin-top: 0px;
     width: 30%;
 }
-.contact{
-    margin-left: 380px;
-}
+
 .contact h6{
     font-size: 15px;
     font-weight: 300;
@@ -161,9 +162,7 @@ form.example::after {
     margin-top: 25px;
 }
 
-.getintouch{
-    margin-right: 380px;
-}
+
 .getintouch p{
     font-size: 12px;
 }
@@ -178,5 +177,6 @@ form.example::after {
 }
 
 .footer{
-    overflow: hidden;
+    max-width: 1157px;
+    margin: auto;
 }
