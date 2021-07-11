@@ -18,40 +18,62 @@
         <!-- --------Top bar-------- -->
         <div class="row">
             <div class="col-lg-12">
-                <nav class="navbar navbar-light bg-light justify-content-between">
-                    <a class="navbar-brand"><img id="logo" src="img/logo.png" alt="logo"></a>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i
-                                class="fa fa-search"></i></button>
-                    </form>
-                </nav>
-            </div>
-        </div>
-        <!-- --------Nav Items-------- -->
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-md navbar-light bg-dark">
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <nav class="navbar navbar-light bg-light">
+                    <div class="logo">
+                        <a class="navbar-brand"><img id="logo" src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="search d-flex justify-content-center">
+                        <form class="example" action="#">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                        <div class="user mt-1">
+                            <a href=""><i class="fa fa-bell-o fa-lg"></i></a>
+                            <a href=""><i class="fa fa-shopping-cart fa-lg"></i></a>
+                            <a href=""><i class="fa fa-user-o fa-lg"></i></a>
 
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav">
-                            <a href="#" class="nav-item nav-link active">Home</a>
-                            <a href="#" class="nav-item nav-link">Product</a>
-                            <a href="#" class="nav-item nav-link">Campaign</a>
-                            <a href="#" class="nav-item nav-link">About Us</a>
-                            <a href="#" class="nav-item nav-link tabindex=" -1">Reports</a>
-                        </div>
-                        <div class="navbar-nav ml-auto">
-                            <a href="#" class="nav-item nav-link">Login</a>
-                            <a href="#" class="nav-item nav-link">SignUp</a>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
+    </div>
+    <!-- --------Nav Items-------- -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav id="navbar_top" class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Campaign</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Image Slider--------- -->
+
+    <div class="container">
         <!-- ---------Image Slider--------- -->
         <div class="row back">
             <div class="col-lg-12">
@@ -122,12 +144,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row back2">
-        </div>
-    </div>
-    <div class="container">
+
+        <!-- ----------Product Card----------- -->
+
         <div class="row">
             <div class="col-lg-12 d-flex justify-content-between">
                 <div class="card-head mb-2">
@@ -311,50 +330,45 @@
                 <img class="img-fluid" src="img/categories/pale-order.png" alt="cate">
             </div>
         </div>
-        <!-- -----------Footer----------- -->
+    </div>
+    <!-- -----------Footer----------- -->
+    <div class="container-fluid">
         <div class="row footer">
-            <div class="col-md-5">
+            <div class="col-lg-12 d-flex flex-lg-row justify-content-md-between flex-sm-column">
                 <div class="contact">
-                    <h6>Buy & Sell online with Hot Gadgets. Trust quality & best customer expperience at one place!</h6>
+                    <h6>Buy & Sell online with Hot Gadgets. <br> Trust quality & best customer expperience at one place!
+                    </h6>
                     <p>Got A Question? Call Us 24/7</p>
                     <h5>+00212345678</h5>
                 </div>
-
-            </div>
-            <div class="col-md-7">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h6 class="mb-3">Information</h6>
-                        <div class="item d-flex flex-md-column">
-                            <a href="">About Us</a>
-                            <a href="">FAQ</a>
-                            <a href="">Terms & Conditions</a>
-                            <a href="">Contact Us</a>
-                        </div>
-
-
+                <div>
+                    <h6 class="mb-3">Information</h6>
+                    <div class="item d-flex flex-md-column">
+                        <a href="">About Us</a>
+                        <a href="">FAQ</a>
+                        <a href="">Terms & Conditions</a>
+                        <a href="">Contact Us</a>
                     </div>
-                    <div class="col-md-4">
-                        <h6 class="mb-3">Customer Service</h6>
-                        <div class="item d-flex flex-md-column">
-                            <a href="">Order & Payment</a>
-                            <a href="">Privacy & Policy</a>
-                            <a href="">My Account</a>
-                            <a href="">Shopping Cart</a>
-                        </div>
-
+                </div>
+                <div>
+                    <h6 class="mb-3">Customer Service</h6>
+                    <div class="item d-flex flex-md-column">
+                        <a href="">Order & Payment</a>
+                        <a href="">Privacy & Policy</a>
+                        <a href="">My Account</a>
+                        <a href="">Shopping Cart</a>
                     </div>
-                    <div class="col-md-4 address">
-                        <h6 class="mb-3">Get In Touch</h6>
-                        <p>4542 Archwood Avenue
-                            Mountain View, WY 82939</p>
-                        <p>support@hotgadgets.com</p>
-                        <div class="icon-link">
-                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play fa-lg"></i></a>
-                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                        </div>
+                </div>
+                <div class="getintouch">
+                    <h6 class="mb-3">Get In Touch</h6>
+                    <p>4542 Archwood Avenue <br>
+                        Mountain View, WY 82939</p>
+                    <p>support@hotgadgets.com</p>
+                    <div class="icon-link">
+                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
                     </div>
                 </div>
             </div>
@@ -371,10 +385,24 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 100) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                }
+            });
+        });
+    </script>
 
 
     <!-- --------Additional JS-------- -->
